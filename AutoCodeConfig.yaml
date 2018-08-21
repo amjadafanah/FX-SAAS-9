@@ -8,21 +8,21 @@ generators:
   severity: "Major"
   database: null
   inactive: false
-  matches: null
+  matches: []
 - type: "anonymous_invalid"
   assertions:
   - "@StatusCode != 200"
   severity: "Critical"
   database: null
   inactive: false
-  matches: null
+  matches: []
 - type: "auth_invalid"
   assertions:
   - "@StatusCode != 200"
   severity: "Critical"
   database: null
   inactive: false
-  matches: null
+  matches: []
 - type: "DDOS"
   assertions:
   - "@StatusCode != 401"
@@ -48,7 +48,7 @@ generators:
   severity: "Critical"
   database: null
   inactive: false
-  matches: null
+  matches: []
 - type: "sql_injection_timebound"
   assertions:
   - "@ResponseTime < 7000"
@@ -68,7 +68,7 @@ generators:
   severity: "Critical"
   database: null
   inactive: false
-  matches: null
+  matches: []
 - type: "rbac"
   assertions:
   - "@StatusCode == 403"
@@ -116,7 +116,7 @@ generators:
   severity: "Critical"
   database: null
   inactive: false
-  matches: null
+  matches: []
 - type: "special_chars "
   assertions:
   - "@StatusCode != 200"
@@ -126,7 +126,7 @@ generators:
   severity: "Critical"
   database: null
   inactive: false
-  matches: null
+  matches: []
 - type: "null_value"
   assertions:
   - "@StatusCode != 200"
@@ -136,7 +136,7 @@ generators:
   severity: "Critical"
   database: null
   inactive: false
-  matches: null
+  matches: []
 - type: "empty_value"
   assertions:
   - "@StatusCode != 200"
@@ -146,7 +146,7 @@ generators:
   severity: "Critical"
   database: null
   inactive: false
-  matches: null
+  matches: []
 - type: "negative_number"
   assertions:
   - "@StatusCode != 200"
@@ -155,7 +155,7 @@ generators:
   severity: "Critical"
   database: null
   inactive: false
-  matches: null
+  matches: []
 - type: "create"
   assertions:
   - "@StatusCode != 200"
@@ -165,4 +165,4 @@ generators:
   severity: "Critical"
   database: null
   inactive: false
-  matches: null
+  matches: []
